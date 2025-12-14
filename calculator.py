@@ -5,7 +5,7 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    return a * a  # BUG: Should be a * b
+    return a * b
 
 def divide(a, b):
     return a / b  # BUG: No zero division check
